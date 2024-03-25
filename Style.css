@@ -1,0 +1,431 @@
+*{
+  margin:0;
+  padding: 0;
+ 
+}
+ body{
+ 
+  
+ }
+.heading{
+  height: 2rem;
+  width: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  padding: 1rem 1rem;
+  position: fixed;
+  z-index: 100;
+  justify-content: space-evenly;
+  background: #987411;
+}
+.logo{
+  
+  transform: rotate(-10deg);
+  color: #293268;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+.logo span{
+  color:#4b491d;
+}
+.menu a, .menu2 a{
+  padding: 0rem 0.3rem;
+ text-decoration: none;
+ color: #000000;
+ border: 2px solid;
+}
+#profile{
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 1rem;
+}
+#profile .tampilan{
+  height: 15rem;
+  width: 15rem;
+  background:blue;
+  border: 1rem solid;
+}
+#profile img{
+  height: 10rem;
+  width: 15rem;
+}
+#profile .tampilan h1{
+  margin: 1rem 5rem;
+}
+
+
+#app{
+  display: flex;
+  overflow: auto;
+  border: 2px solid;
+ margin: 0.3rem;
+  
+}
+.tanda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  
+}
+
+  
+
+.promosi .content {
+  
+  margin: 5px; /* Memberikan jarak antara item */
+  text-align: center; /* Pusatkan teks */
+  position: relative;
+  
+  
+}
+
+.promosi .content img {
+  width: 25vh; 
+  height: 20rem;
+  padding: 1rem;
+}
+
+.skill, .blog{
+  border: 2px solid;
+  margin: 2rem;
+  
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  font-size: 2rem;
+  
+  
+} 
+.blog .html{
+  border: 1px solid;
+  background-color: #5fc4e9;
+}
+
+.skill .html h1, .blog .html h1{
+  display:grid;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin: 5rem 0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: #f5cccc;
+  height: 3rem;
+  width: 10rem;
+  border: 1px solid #d5a5a5; /* Tambahkan garis tepi */
+  border-radius: 0.5rem; /* Tambahkan sudut melengkung */
+  transition: background 0.3s, color 0.3s; /* Efek transisi saat hover */
+}
+
+.btn:hover {
+  background: #d5a5a5; /* Ubah warna latar belakang saat hover */
+  color: white; /* Ubah warna teks saat hover */
+}
+
+.cerita, .portofolio1, .sertifikat1{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  
+}
+
+.pengalaman {
+  margin: 0.5rem;
+  padding: 6rem 1rem; /* Tambahkan padding atas dan bawah, dan biarkan padding kiri dan kanan tetap */
+  font-size: 2rem;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  overflow: auto; /* Menambahkan scroll jika konten melebihi tinggi div */
+}
+.pengalaman .sampul, .pengalaman1 h1,.pengalaman1 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.pengalaman1{
+  padding: 2rem;
+}
+.pengalaman1 p{
+  font-size: 2rem;
+  
+}
+.portofolio, .sertifikat{
+  display: flex;
+  justify-content: center; /* Pusatkan elemen-elemen secara horizontal */
+  align-items: center; /* Pusatkan elemen-elemen secara vertikal */
+  border: 1px solid;
+  margin: 2rem;
+}
+
+
+.border-container {
+  display: flex;
+  flex-wrap: wrap; /* Membungkus elemen-elemen ke baris baru jika tidak muat */
+}
+
+.border {
+  border: 1px solid;
+  height: 10rem;
+  width: 23em;
+  padding: 2rem;
+  margin: 0.5rem; /* Memberikan jarak antara elemen */
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.portofolio .border img,.sertifikat .border img{
+  position: relative;
+  top: -4rem;
+  height: 13rem;
+  width: 22rem;
+ 
+}
+
+
+.btn1{
+  position: relative;
+  height: 5rem;
+  width: 10rem;
+  top: -4rem;
+  right: -35rem;
+  font-size: 2rem;
+}
+
+.kontak {
+  text-align: center;
+  padding: 20px;
+}
+
+.kontak h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Gaya CSS yang akan diterapkan pada layar dengan lebar kurang dari atau sama dengan 600px */
+
+/* Gaya CSS yang akan diterapkan pada layar dengan lebar lebih dari 600px */
+@media screen and (min-width: 601px) {
+  body {
+    background-color: lightgreen;
+  }
+  
+    .menu2 #hamburg{
+      display: none;
+    }
+        
+    
+  
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .logo{
+    font-size: 2rem;
+    position: relative;
+    left:3rem;
+    display: flex;
+  }
+  .heading{
+    position: fixed;
+    right: 0rem;
+    
+    justify-content: space-between;
+  }
+.menu {
+  position: relative;
+  right: -100em; /* Menggeser menu keluar dari layar */
+  transition: right 0.3s ease; /* Efek transisi untuk perubahan posisi */
+}
+
+.menu.active {
+  right: 0; /* Menggeser menu kembali ke posisi awal */
+}
+  
+  .menu  a{
+    
+    display: block; /* Menjadikan setiap item menu berada di bawah */
+    background-color: #ffffff;
+    border: none;
+}
+
+  .menu2 #pertanyaan{
+    display: none;
+  }
+  .menu2{
+    position: relative;
+    right: 2rem;
+  }
+  #profile{
+    display:block;
+  }
+  .promosi .content img {
+  width: 30vh; 
+  height: 15rem;
+  padding: 1rem;
+}
+.pengalaman{
+  margin: 0.5rem;
+  padding: 6rem 1rem; /* Tambahkan padding atas dan bawah, dan biarkan padding kiri dan kanan tetap */
+  font-size: 0.64rem;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  overflow: auto;
+}
+.pengalaman1 p{
+  font-size: 0.8rem;
+}
+
+.portofolio .border-container{
+  overflow: auto;
+  height: 20rem;
+
+}
+.border{
+  height: 5rem;
+  width: 4rem;
+}
+
+  
+.portofolio .border img, .sertifikat  .border img{
+  height: 9rem;
+  width: 8rem;
+ 
+}
+
+.btn{
+  position: relative;
+  right: -2rem;
+  top: -5rem;
+  
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+  margin-bottom: 5px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+}
